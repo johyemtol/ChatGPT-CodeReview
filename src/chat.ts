@@ -24,7 +24,7 @@ export class Chat {
       : '';
 
     const prompt =
-      process.env.PROMPT ||
+    
         '안녕 반가워 반갑다고 해줄래?';
 
     return `${prompt}, ${answerLanguage}:
