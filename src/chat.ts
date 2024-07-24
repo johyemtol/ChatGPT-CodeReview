@@ -28,7 +28,6 @@ export class Chat {
         '안녕 반가워 반갑다고 해줄래!!!!?';
 
     return `${prompt}, ${answerLanguage}:
-    ${patch}
     `;
   };
 
